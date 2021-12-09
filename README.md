@@ -12,3 +12,6 @@ One way to do it is to augment the images a bit. For this experiment we have use
 So basically if we tweak the images a little like rotate the image, squash it, etc we are augmenting the images i.e. we are using Data augmentation. This helps the model focus on the distinguishing features of cats and dogs, and helps in greatly improving validation accuracy as shown in the plots obtained. This shows that Data augmentation has a regularizing effect. Data augmentation in this experiment was implemented using the ImageDataGenerator API in Tensorflow 2.0.
 
 Lastly, apart from behaving as a regularizer it also helps when you have a small dataset to train your model on as every time data augmentation is applied to an image, the newly augmented image is treated as a new image.
+![cats and dogs](https://user-images.githubusercontent.com/95295620/145442191-a02a5bde-d93c-45cd-b729-4b434f53ee85.PNG)
+![cats vs dogs without data augmentation](https://user-images.githubusercontent.com/95295620/145442228-3407b647-c54d-45f7-83ca-e0594085cf0d.PNG)
+![cats vs dogs with data augmentation 2](https://user-images.githubusercontent.com/95295620/145442246-a9e3621f-a5a7-45ac-b973-42450aa94287.PNG)
