@@ -1,4 +1,4 @@
-# Cats-vs-Dogs
+# Binary Image classifier (Cats-vs-Dogs)
 A binary Image Classifier for Cats-vs-Dogs classification using Convolutional Neural networks with Data Augmentation in Python.
 
 I ran two experiments, in the first, the model was trained on the dataset without data augmentation while in the second, it was trained with it.
